@@ -1,0 +1,16 @@
+{
+  "name": "webdriverIO-type",
+  "type": "module",
+  "scripts": {
+    "parallelAndroid": "wdio run android.conf.ts",
+    "applePay": "wdio run applePay.conf.ts",
+    "nbrown": "wdio run nBrown.conf.ts"
+},
+  "devDependencies": {
+    "@wdio/cli": "^9.10.1",
+    "@wdio/local-runner": "^9.10.1",
+    "@wdio/mocha-framework": "^9.10.1",
+    "@wdio/spec-reporter": "^9.10.1",
+    "wdio-lambdatest-service": "^4.0.0"
+  }
+}
